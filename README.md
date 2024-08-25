@@ -11,14 +11,23 @@ Top routes for bike sharing consists of distances that ranges from `0.716 km` to
 
 **Hourly Bike Ride**
 ---
-![image](https://github.com/user-attachments/assets/482f23ef-1a26-4d99-a879-98ce1d92fbd4)
-![image](https://github.com/user-attachments/assets/d8936924-2c96-45eb-a894-138999d805ab)
+![image](https://github.com/user-attachments/assets/573f491e-aab5-4320-b869-c791a7075d69)
+![image](https://github.com/user-attachments/assets/757c2778-2771-49d7-a921-50a9d3ef3f01)
 - Ridership for weekdays has two peaks:
   - 8 AM between 1112 to 1494 rides
   - 5 PM between 2523 to 2969 rides
 - Distance travelled during weekdays are right-skewed.
 - Ridership for weekend are partiall normal with a wider peak. For both Saturday and Sunday bikers has longer hour of activities which started from 10 AM to 7 PM.
 - Additionally, during weekends, travel distance can reach up to 2.4 km in 4 AM to 2.3 km in 5 PM, that peaks at 2pm with 2.5 km.
+
+**Usage by Distance**
+---
+![image](https://github.com/user-attachments/assets/35138d87-8e00-4247-b7bc-05a7fb8cb9c6)
+![image](https://github.com/user-attachments/assets/c9ec6a82-e91b-4ec8-be4b-39b6d061224a)
+- The three bike types follow almost the same distance distribution, with the exception of electric bikes because of its outlier.
+- Electric bikes scan be used to transport up to 100 km distance.
+- Negative velocity for electric and classic suggests that they can be used from origin to destination then vice versa. We can infer, in a network perspective that transportation in this two type of bikes are bidirectional in nature.
+- On the other hand, docked bikes are unidirectional.
 
 **Spatial Analysis**
 ---
