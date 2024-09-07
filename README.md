@@ -34,6 +34,10 @@ Top routes for bike sharing consists of distances that ranges from `0.716 km` to
 ![image](https://github.com/user-attachments/assets/7ecbeaee-686e-4999-93ce-3839f5ebede4)
 ![image](https://github.com/user-attachments/assets/4e67b0dc-0fd2-4639-8e91-482b5cf7e6cf)
 
+**Statistical Analysis**
+![image](https://github.com/user-attachments/assets/47cbdba3-e80f-470b-b87b-16f74f3aed04)
+
+
 
 
 
