@@ -36,7 +36,16 @@ Top routes for bike sharing consists of distances that ranges from `0.716 km` to
 
 **Statistical Analysis**
 ---
-![image](https://github.com/user-attachments/assets/eade3d9e-0641-4ecf-8d27-a1ad4cc511eb)
+| Null Hypthesis (HO) | Alternative Hypothesis (HA) | p-value | Conlusion |
+| -------- | ------- | ------- | ------- |
+| The mean travel time is the same for electric bikes, <br>classic and docked bikes | The mean travel time is different for electric bikes, classic and docked bikes | 1.141772e-10 | Travel time is dependent to bicycle type |
+|There is no significant difference in travel distance <br> between members and non-members |There is a significant difference in travel distance between<br> members and non-members |0.748 |There is no significant difference between the<br> distance travelled by member or casual|
+| Travel distance is independent of the type of bike| Travel distance depends on the type of bike | 0.076429 |distance is independent from bicycle type|
+|The average travel time is the same between peak <br>and non-peak hours|The average travel time is the same between <br>peak and non-peak hours|0.106|average travel time during weekdays is the same between <br>peak and non-peak hours|
+|The average travel time is the same between peak <br>and non-peak hours|The average travel time is the same between <br>peak and non-peak hours|0.074|average travel time during weekends is the same between <br>peak and non-peak hours|
+|Bike membership status does not influence <br>the choice of bike type|Bike membership status influences the choice of bike type|4.929534e-14|There is an association between membership type and bicycle type|
+|There is no interaction effect between bike type <br>and membership status on travel velocity|There is an interaction effect between bike type <br>and membership status on travel velocity|3.171383e-23|Travel velocity is affected by membership and bicycle type|
+
 
 
 
